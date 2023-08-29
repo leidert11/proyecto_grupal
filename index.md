@@ -200,102 +200,126 @@ El toque de fucsia añade un elemento de sorpresa y vitalidad a las interfaces, 
 
 En conjunto, esta combinación de diseño minimalista y la paleta de colores cuidadosamente seleccionada se traduce en interfaces que no solo son atractivas a nivel estético, sino que también ofrecen una experiencia de usuario óptima al simplificar la interacción y mejorar la legibilidad de la información. La atención al detalle en el diseño de estas interfaces refleja nuestro compromiso con la satisfacción y comodidad del usuario.
 
-# PÁGINA PRINCIPAL O PÁGINA DE INICIO
+## PAGINA PRINCIPAL O HOME PAGE
 
-![Imagen de la página principal](https://github.com/leidert11/proyecto_grupal/assets/110786757/33df99b8-dea5-422e-a42e-2853c8704f6b) - Versión de escritorio
-![Imagen de la página principal para móvil](image-1.png) - Versión para móvil
+
+![img-pagInicio-escri](https://github.com/leidert11/proyecto_grupal/assets/110786757/33df99b8-dea5-422e-a42e-2853c8704f6b)-- Version desktop o de escritorio
+![img-pagIncii-movil](image-1.png)-- Version para movil
+
 
 En esta imagen, se puede apreciar un diseño simple y armonioso que cuenta con diferentes secciones, cada una de las cuales cumple una función específica. Esta cuidadosa disposición de elementos facilita la comprensión y la navegación del usuario. A continuación, detallaremos el propósito de cada una de estas secciones para ofrecer una visión más completa del diseño:
 
-**1. Encabezado:** Se encuentra en la parte superior de la imagen. Contiene dos elementos muy importantes: el primero es el logotipo y el segundo es el menú de navegación, con el cual podemos desplazarnos entre las diferentes pestañas o secciones de la página.
+**1 encabezado  :** se encuentra En la parte superior de la imagen, dentro de si contiene 2 elementos muy importantes el primero es el logotipo y el segundo es el menu de navegación con el cual podemos navegar entre las diferentes pestañas o secciones de la pagina
+ 
+-- a continuación la version de escritorio como la de Movil
+![Alt text](image-2.png)
+![Alt text](image-3.png)
 
-![Versión de escritorio](image-2.png)
-![Versión para móvil](image-3.png)
 
-**2. Banner:** El banner se encuentra en la parte inferior izquierda, justo debajo del encabezado. Contiene una imagen y un contenedor que incluye el logo de nuestra página, una breve descripción y un botón.
 
-![Versión de escritorio](image-4.png)
-![Versión para móvil](image-5.png)
+**2 baner :** en el baner se encuentra en la parte inferior izquierda abajo del encabezado , el baner contiene una imagen y un contenedor que tiene dentro el logo de nuestra pagina una breve descripción y un botón .
 
-**3. Sección Acerca de:** Se encuentra en la parte inferior de la imagen, justo debajo del banner. Esta sección presenta una breve descripción y enumera varios objetivos. Además, se incluyen iconos con descripciones que representan estadísticas sobre el ciberacoso.
+-- a continuación la version de escritorio como la de Movil
 
-![Versión de escritorio](image-6.png)
-![Versión para móvil](image-7.png)
+![Alt text](image-4.png)
+![Alt text](image-5.png)
 
-**4. Sección de Próximos Eventos:** Situada debajo de "Acerca de", contiene un conjunto de cajas con descripciones e imágenes breves de eventos próximos.
+**3 seccion acerca de :** se encuentra el la parte inferior de la imagen mas respectivamente debajo del baner esta seccion posee una breve descripcion y denotan varios objectivos , ademas debajos de los mismo podemos ver unos iconos con descripciones los cuales son estadisticas hacerca del ciber acoso
 
-![Versión de escritorio](image-8.png)
-![Versión para móvil](image-9.png)
+-- a continuación la version de escritorio y la de Movil
 
-**5. Sección de Colaboradores:** En esta sección están los colaboradores o partners de la página, con enlaces a sus sitios web al hacer clic sobre ellos.
+![Alt text](image-6.png)
+![Alt text](image-7.png)
 
-![Versión de escritorio](image-10.png)
-![Versión para móvil](image-11.png)
+**4 seccion de proximos eventos :** se encuentra debajo de acerca de y contiene un conjunto de cajas las cuales guardan descripcion y imagenes breves hacerca de eventos como tal.
 
-**6. Sección de Contacto:** En esta sección se encuentra una breve descripción y los contactos de las personas encargadas de la mentoría para tratar el ciberacoso. Además, al lado de esta sección se encuentra una imagen representativa.
+-- a continuación la version de escritorio y la  de Movil
 
-![Versión de escritorio](image-12.png)
-![Versión para móvil](image-13.png)
+![Alt text](image-8.png)
+![Alt text](image-9.png)
 
-**7. Pie de página o Footer:** En esta sección encontramos el logotipo en la parte central. Se encuentra acompañado de tres enlaces debajo de él y posteriormente una división que contiene el copyright o derechos de autor y los respectivos enlaces a las redes sociales.
 
-![Versión de escritorio](image-14.png)
-![Versión para móvil](image-15.png)
+**5 seccion de colaboradores :** en esta seccion estan los colaboradores o pathers de la pagina con enlaces a los sitios de ellos solo dando click sobre los mismos.
 
-## SUBPÁGINA DE TESTIMONIOS
+-- a continuación la version de escritorio y la  de Movil
 
-Esta subpágina incluye un encabezado y una barra de navegación, así como un título que destaca los testimonios. También se encuentra una sección con cajas que contienen una imagen, un título y una breve descripción. A la derecha, se presenta una barra de información. Debajo de la sección de testimonios, podemos ver la sección de colaboradores o socios y, al final, el footer.
+![Alt text](image-10.png)
+![Alt text](image-11.png)
 
-![Versión de escritorio](image-16.png)
-![Versión para móvil](image-17.png)
+**6 seccion de contacto :** en esta seccion se encuentra una breve descripcion y los conctactos de las persona encargadas de la mentoria para tratar el ciberacoso ademas al lado de esta se encuentra una imagen representativa de la seccion
 
-**SUBPÁGINA REGISTRO DE TESTIMONIO:**
+-- a continuación la version de escritorio y la  de Movil
 
-Esta subpágina, similar a la anterior, cuenta con un encabezado y un footer, además de la barra de navegación. También incluye una barra de dirección, un título que enfatiza la sección y un texto introductorio. En ella, hay un formulario donde el usuario registrará su nombre y correo electrónico, junto con un botón para cargar el recurso deseado. No olvidemos mencionar que posee un botón de tipo check.
+![Alt text](image-12.png)
+![Alt text](image-13.png)
 
-![Versión de escritorio](image-19.png)
-![Versión para móvil](image-18.png)
 
-## SUBPÁGINA DE RECURSOS
+**7 pie de pagina o footer :** : en esta seccion encontramos el logo el la parte central de mismo acompañando a 3 enlaces que se encuentran debajo de el para posterior mente una divicion que contiene el copyright o derechos de autor y los respectivos enlaces alas redes sociales.
 
-La subpágina de recursos cuenta con un encabezado y un footer, al igual que la barra de navegación presente en el resto de las subpáginas. Esta página comprende una sección dividida en tres partes, cada una con un título y una descripción que explica en qué consiste cada bloque.
+-- a continuación la version de escritorio y la  de Movil
 
-Es importante destacar que esta subpágina se enlaza con otras subpáginas que son sus hijas, las cuales veremos a continuación.
+![Alt text](image-14.png)
+![Alt text](image-15.png)
 
-**Subpáginas - Recursos - Padres / Profesores y Estudiantes:**
+## SUB PAGINA DE TESTIMONIOS :
 
-Estas subpáginas tienen una estructura similar y son sencillas, incluyen un encabezado y un footer, así como tres secciones que abordan diferentes aspectos de un mismo tema, con sus respectivas imágenes, títulos y subtitulos que enfatizan cada uno de los temas descritos. También cuentan con una sección de contacto. La única diferencia radica en su contenido y en la disposición de su estructura.
+Esta sub pagina contiene  header y  una barra de direcionalidad  ademas de contener un breve titulo haciendo enfasis en los testimonios ,tambien contiene una seccion la cual posee cajas que las mismas continen una imagen un titulo y una breve y corta descripcion , ademas en lado derecho se encuentra una barra de informacion , debajo de la seccion de testimonios podemos observar la seccion de colaboradores o parthners y al final se encuentra el footer
 
-### Recursos para Padres
+-- a continuación la version de escritorio y la  de Movil
 
-- Versión de escritorio
-![Versión de escritorio](image-26.png)
-![Versión de escritorio](image-27.png)
+![Alt text](image-16.png)
+![Alt text](image-17.png)
 
-- Versión para móvil
-![Versión para móvil](image-28.png)
-![Versión para móvil](image-29.png)
-![Versión para móvil](image-30.png)
+**SUBPAGINA REGISTRO DE TESTIMONIO :**
 
-### Recursos para Profesores
+esta sub pagina al igual que la anterior posee su header y su footer 
+ademas de contener la barra de direccionalidad  ,ademas posee un titulo que hace enfasisis en la seccion y un texto introductorio , cuenta con un formulario en donde el usuario registrara su nombre email y tambien un boton para subir el recurso deseado no sin antes mensionar que posee un button de tipo check.
 
-- Versión de escritorio
-![Versión de escritorio](image-31.png)
-![Versión de escritorio](image-32.png)
+-- a continuación la version de escritorio y la  de Movil
 
-- Versión para móvil
-![Versión para móvil](image-33.png)
-![Versión para móvil](image-34.png)
 
-### Recursos para Estudiantes
+![Alt text](image-19.png)
+![Alt text](image-18.png)
 
-- Versión de escritorio
-![Versión de escritorio](image-35.png)
-![Versión de escritorio](image-36.png)
+## SUBPAGINA DE RECURSOS :
+la sub pagina recursos contiene el header o encabezado y su footer ademas de contener la misma barra de direccionalidad que posee el resto de subpagina , esta pagina comprende una seccion la cual esta dividida en 3 que se comprenden en 3 simple bloques que contienen un titulo y una descripcion de que hace parte ese bloque  
 
-- Versión para móvil
-![Versión para móvil](image-37.png)
-![Versión para móvil](image-38.png)
+es de suma importacia comprender que esta subpagina se enlaza con otras las cuales son sus hijos ,lo cual veremos a continuacion
+
+**sub paginas -recursos- /padres/ /profesores y estudiantes/** :
+estas  subpaginas   comprende una estrutura similar , comprede de una estrutura  muy basica como header o footer ,ademas de contener 3 secciones que abordan diferentes puntos de un mismo tema  con sus respectivas imagenes y titulos y subtitulos que hacen enfasis en cada uno de los temas que se describen ,asi mismo cuentan con una seccion de conctacto , la unica diferencia radica en su contenido y en el pocicionamiento de su estrutura como tal 
+
+
+### recurso para padres
+--  version de escritorio
+![Alt text](image-26.png)
+![Alt text](image-27.png)
+
+--  version de movil
+![Alt text](image-28.png)
+![Alt text](image-29.png)
+![Alt text](image-30.png)
+
+
+
+### recurso para profesores
+--  version de escritorio
+![Alt text](image-31.png)
+![Alt text](image-32.png)
+
+--  version de movil
+![Alt text](image-33.png)
+![Alt text](image-34.png)
+
+
+### recurso para estudiantes
+--  version de escritorio
+![Alt text](image-35.png)
+![Alt text](image-36.png)
+
+--  version de movil
+![Alt text](image-37.png)
+![Alt text](image-38.png)
 
 
 
