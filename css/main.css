@@ -1,0 +1,386 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 5rem;
+}  
+
+/*general*/
+
+section div {
+  overflow: hidden;
+  max-width: 1200px;
+  margin: auto;
+}
+
+
+/*cabecero*/
+.cabecero {
+  position:fixed;
+  width: 100%;
+  top: 0;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  z-index: 10;
+  
+}
+
+.cabecero img {
+  max-width: 150px;
+}
+
+.cabecero nav {
+  display: flex;
+  gap: 30px;
+  
+}
+.cabecero nav span{
+  display: none;
+  text-align: end;
+  padding: 20px;
+}
+
+.cabecero nav a{
+  color: #ffffff;
+  text-decoration: none;
+}
+
+
+.cabecero nav a:hover{
+  color: #ff1493;
+}
+
+.cabecero button{
+  display: none;
+  background: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+
+
+/*cabecero cambio de color cuando se realiza scroll, clase añadida desde js*/
+.cabercero-scroll {
+    background-color: #13161c;
+    transition: 1s;
+}
+
+/*baner*/
+
+.seccion-baner {
+    background: linear-gradient(45deg, #ff0000, #0000ff);
+}
+
+.seccion-baner div {
+  min-height: 1000px;
+  display: flex;
+  gap: 50px;
+  align-items: center;
+}
+
+.seccion-baner div figure {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.seccion-baner div figure img {
+  max-width: 100%;
+}
+
+.seccion-baner div figure figcaption {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 8rem;
+  font-weight: bold;
+  transform: rotate(-5deg) translate(50%,10%);
+  color: #ffffff;
+}
+
+.baner-contenedor p {
+  padding: 0px 40px;
+  margin-bottom: 40px;
+  width: auto;
+  font-size: 1.5rem;
+  font-style: italic;
+  font-weight: 700;
+
+  color: #ffffff;
+}
+
+.baner-contenedor a {
+  margin-left: 40px;
+  padding: 10px 30px;
+  border-radius: 5px;
+  font-size: 1.4rem;
+  background-color: #ff1493;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.baner-contenedor a:hover {
+  background-color: #ff0080;
+}
+
+/*acerca de*/
+
+.seccion-acercaDe div {
+  padding: 40px;
+}
+
+.seccion-acercaDe h2 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.seccion-acercaDe div section {
+  padding: 10px 30px;
+}
+.seccion-acercaDe div section  span{
+  font-size: 1.5rem;
+  font-weight: 900;
+  border-bottom: 2px solid #ff1493;
+}
+
+.seccion-acercaDe div section  p{
+  padding: 10px 20px;
+  
+}
+
+/*estadisticas*/
+
+.seccion-estadisticas div {
+  
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+  
+}
+
+.seccion-estadisticas figure {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 30px;
+  
+}
+
+.seccion-estadisticas figure span{
+    font-weight: 900;
+    font-size: 1.3rem;
+}
+
+
+
+/*eventos*/
+
+.seccion-eventos {
+
+  padding: 90px 0px;
+  background-color: #13161c;
+}
+
+
+
+.seccion-eventos div h3 {
+  padding: 0px 10px;
+  display: inline-block;
+  color: #ffffff;
+  font-size: 1.9rem;
+  margin-bottom:30px;
+  border-bottom: 2px solid #ff0080;
+}
+
+.seccion-eventos section {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.seccion-eventos section article {
+  max-width: 350px;
+  min-height: 500px;
+  padding: 22px;
+  border-radius: 10px;
+  transition: 1s ease-in-out;
+  background-color: #ccc;
+}
+
+.seccion-eventos section article:hover {
+  transition: 1s ease-in-out;
+  background-color: #fff;
+}
+
+.seccion-eventos section article img{
+    max-width: 100%;
+    height: 150px;
+    border-radius: 5px;
+} 
+.seccion-eventos section article span{
+    font-weight: 900;
+    font-size: 1.3rem;    
+}
+
+
+.seccion-eventos section article p {
+  padding: 10px 20px;
+  margin: 10px 0px;
+}
+
+.seccion-eventos section article a {
+  margin: 20px 0px;
+  border-radius: 10px;
+  color: #13161c;
+  transition: 1s;
+  text-decoration: none;
+
+}
+
+.seccion-eventos div article a:hover {
+  color: #fdfdfd;
+  transition: 1s;
+}
+
+/*sponsors o colaboradores*/
+
+.sponsors{
+  padding: 20px;
+  height: 380px;
+  position: relative;
+}
+
+.sponsors div {
+  transition: 1s ease;
+}
+
+.sponsors img {
+  max-width: 100%;
+  
+}
+
+
+
+/*conctacto*/
+
+
+
+.conctacto> div {
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.conctacto article {
+  margin: 20px;
+  width: 100%;
+  padding: 40px;
+  border-radius: 20px;
+  color: #ffffff;
+  background-color: #13161c;
+}
+
+.conctacto article span {
+  font-size: 2rem;
+  min-width: 100%;
+}
+
+.conctacto article p {
+  margin-top: 30px;
+}
+
+.conctacto img {
+  
+  width: 270px;
+  position: absolute;
+  
+  transform: translate(80%, 0%);
+}
+
+
+/*media queris*/
+
+@media (max-width: 1200px) {
+
+  
+  /*cabecero*/
+  .cabecero button{
+    display: block;
+  }
+  
+  .cabecero nav{
+    display: none;
+    transition: 2s;
+    
+  }
+
+  .despNavMovil {
+    padding: 20px;
+    position: absolute;
+    display: block !important;
+    top: 0;
+    right: 0;    
+    animation: aparecer 1s forwards;
+    box-shadow: 0 0 0   100vmax rgba(0,0,0,.5);
+    background-color: #13161c;
+  }
+
+  .despNavMovil a{
+    text-decoration: none;
+    margin-bottom: 10px;
+    display: block;
+  }
+
+  .cabecero nav span{
+    display: block  ;
+    cursor: pointer;
+    
+  }
+
+  .btnNoDisplay{
+
+    display: none !important;
+    
+  }
+ /*baner*/
+  .seccion-baner div figure {
+    display: none;
+  }
+  
+  .seccion-baner div article{
+    padding: 20px;
+  }
+  /*conctacto*/
+  .conctacto div article{
+    
+    border-radius: 0px !important;
+      
+  }
+
+  .conctacto img{
+    display: none;
+  }
+}
+
+@keyframes aparecer {
+  from {
+      right: -100%;
+  }
+  to {
+      right: 0; 
+  }
+}

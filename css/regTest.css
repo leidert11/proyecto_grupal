@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Google Sans", "Noto Sans Myanmar UI", arial, sans-serif;
+  }
+
+  body::-webkit-scrollbar {
+    background-color: #13161c;
+    width: 12px;
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: #ff1493;
+    border-radius: 5px;
+  }
+  
+  /*cabecero*/
+  
+  .container_cabecero {
+    position: relative;
+    height: 100px;
+  }
+  
+  
+  .cabecero {
+    position: fixed;
+    width: 100%;
+    height: 6rem;
+    top: 0;
+    padding: 0px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    z-index: 10;
+    background-color: #13161c;
+  
+  }
+  
+  .cabecero img {
+    max-width: 150px;
+  }
+  
+  .cabecero nav {
+    display: flex;
+    gap: 10px;
+  
+  }
+  
+  .cabecero nav span {
+    display: none;
+    text-align: end;
+    padding: 20px;
+  }
+  
+  .cabecero nav a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  
+  .cabecero nav a:hover {
+    color: #ff1493;
+  }
+  
+  .cabecero button {
+    display: none;
+    background: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+  }
+  
+  
+  
+  
+  /*seccion contenido*/
+
+
+.contenido-main{
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center ;
+  padding: 0px 20px;
+}  
+.contenido-main >div  article h1{
+  font-weight: bold;
+  font-size: 4rem;
+  color: #ff1493;
+}
+
+  .contenido-main > div{
+    max-width: 1200px;
+    margin: 0 auto;
+  
+  }
+  
+ 
+  .seccion_formulario{
+    display: flex;
+    justify-content: end;
+  }
+
+  .seccion_formulario form{
+    max-width: 50%;
+    
+  }
+  
+  /*Media querys*/
+  
+  
+  @media (max-width: 1200px) {
+  
+  
+  /*medias del cabecero*/
+    .cabecero button {
+      display: block;
+    }
+  
+    .cabecero nav {
+      display: none;
+      transition: 2s;
+  
+    }
+  
+    .despNavMovil {
+      padding: 20px;
+      position: absolute;
+      display: block !important;
+      top: 0;
+      right: 0;
+      animation: aparecer 1s forwards;
+      box-shadow: 0 0 0 100vmax rgba(0, 0, 0, .5);
+      background-color: #13161c;
+    }
+  
+    .despNavMovil a {
+      text-decoration: none;
+      margin-bottom: 10px;
+      display: block;
+    }
+  
+    .cabecero nav span {
+      display: block;
+      cursor: pointer;
+  
+    }
+  
+    .btnNoDisplay {
+  
+      display: none !important;
+  
+    }
+  
+    .contenedor form fieldset {
+      width: 100%;
+  
+    }
+    /*medias del contenido*/
+    .contenido-main >div  article h1{
+      font-size: 2rem;
+    }
+    .seccion_formulario form{
+      max-width: inherit;
+    }
+    
+    @keyframes aparecer {
+      from {
+          right: -100%;
+      }
+      to {
+          right: 0; 
+      }
+    }
+  }

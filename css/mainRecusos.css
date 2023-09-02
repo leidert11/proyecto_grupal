@@ -1,0 +1,196 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Google Sans", "Noto Sans Myanmar UI", arial, sans-serif;
+  
+  }
+  
+  body::-webkit-scrollbar {
+    background-color: #13161c;
+    width: 12px;
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: #ff1493;
+    border-radius: 5px;
+  }
+  
+  /*cabecero*/
+  
+  .container_cabecero {
+    position: relative;
+    height: 50px;
+  
+  }
+  
+  .cabecero {
+    position: fixed;
+    width: 100%;
+    height: 6rem;
+    top: 0;
+    padding: 0px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    z-index: 10;
+    background-color: #13161c;
+  }
+  
+  .cabecero img {
+    max-width: 150px;
+  }
+  
+  .cabecero nav {
+    display: flex;
+    gap: 10px;
+  
+  }
+  
+  .cabecero nav span {
+    display: none;
+    text-align: end;
+    padding: 20px;
+  }
+  
+  .cabecero nav a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  
+  .cabecero nav a:hover {
+    color: #ff1493;
+  }
+  
+  .cabecero button {
+    display: none;
+    background: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+  }
+
+/*contenido*/
+
+.contenido{
+    max-width: 1200px;
+    min-height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.contenido__divc1{
+  min-height: 450px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/img/mainRecursos/img-padres.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.contenido__divc2> article{
+  min-height: 225px;
+  padding: 20px;
+
+}
+
+.contenido__divc2-item1{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("../assets/img/mainRecursos/img-profesora.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+}
+
+.contenido__divc2-item2{
+  background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/img/mainRecursos/img-estudiantes.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+h1 ,h2 ,h3,p{
+  color: #ffffff !important;
+}
+
+.contenido a{
+  color: #ffffff !important;
+  background-color: #ff1493;
+  max-width: 100px;
+  text-align: center;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.contenido a:hover{
+  color: #ffffff !important;
+  background-color: #bd0466;
+  max-width: 100px;
+  text-align: center;
+  text-decoration: none;
+  padding: 10px;
+}
+
+/*Media querys*/
+
+@media (max-width: 1200px) {
+
+
+    /*cabecero*/
+    .cabecero button {
+      display: block;
+    }
+  
+    .cabecero nav {
+      display: none;
+      transition: 2s;
+  
+    }
+  
+    .despNavMovil {
+      padding: 20px;
+      position: absolute;
+      display: block !important;
+      top: 0;
+      right: 0;
+      animation: aparecer 1s forwards;
+      box-shadow: 0 0 0 100vmax rgba(0, 0, 0, .5);
+      background-color: #13161c;
+    }
+  
+    .despNavMovil a {
+      text-decoration: none;
+      margin-bottom: 10px;
+      display: block;
+    }
+  
+    .cabecero nav span {
+      display: block;
+      cursor: pointer;
+    }
+  
+    .btnNoDisplay {
+      display: none !important;
+    }
+
+    .contenido{
+      gap: 0px;
+      flex-wrap: wrap;
+    }
+    
+  }
+  
+  @keyframes aparecer {
+    from {
+        right: -100%;
+    }
+    to {
+        right: 0; 
+    }
+  }
